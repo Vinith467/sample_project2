@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <header>
+            <a href="index.html">Home</a>
+        </header>
+    </nav>
+    <main>
+        <section id="services">
+            <ul>
+                <li>web development</li>
+                <li>UI/UX development</li>
+                <li>website migration</li>
+                <li>seminars</li>
+            </ul>
+        </section>
+        <section>
+            <form action="" method="post" enctype="multipart/form-data">
+                <div>
+                    <label for="name-input">Name :</label>
+                    <input type="text" id="name-input" placeholder="Enter your name" name="customer-name">
+                </div>
+                <div>
+                    <label for="email-input">Email :</label>
+                    <input type="email" id="email-input" placeholder="Enter your mail">
+                </div>
+                <div>
+                    <label for="phno">Phone no.</label>
+                    <input type="tel" id="phno" placeholder="Enter your number">
+                </div>
+                <div>
+                    <label for="services-choice">Select service</label>
+                    <select name="" id="services-choice">
+                         <!-- <option value=""selected>---select an option---</option> -->
+                        <option value="web-dev">web development</option>
+                        <option value="UI/UX-dev">UI/UX development</option>
+                        <option value="web-migrate"selected>website migration</option>
+                        <option value="seminars">seminars</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="budget-input">Estimated Budget :</label>
+                    <input type="number" id="budget-input" value="1000">
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
